@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="assets/css/header.css">
+      <link rel="stylesheet" href="assets/css/banner.css">
+      <link rel="stylesheet" href="assets/css/main.css">
+      <link rel="stylesheet" href="assets/css/footer.css">
+      <link rel="stylesheet" href="assets/css/responsive.css">
+      <style>
+        body {
+          /* font-family: 'Arial', sans-serif; */
+          margin: 0;
+          padding: 0;
+          background-color: #f7f7f7;
+          color: #333;
+        }
+    
+        header {
+          background-color: #aad3ff;
+          color: #fff;
+          padding: 10px;
+          text-align: center;
+        }
+    
+        section {
+          max-width: 800px;
+          margin: 20px auto;
+          padding: 20px;
+          background-color: #fff;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          border-radius: 8px;
+        }
+    
+        h1, h2, h3 {
+          color: #000000;
+        }
+    
+        h2 {
+          border-bottom: 2px solid #90f0ff;
+          padding-bottom: 10px;
+          margin-bottom: 20px;
+        }
+    
+        form {
+          display: grid;
+          gap: 20px;
+        }
+    
+        label {
+          display: block;
+          font-weight: bold;
+          margin-bottom: 5px;
+        }
+    
+        input, textarea {
+          width: 100%;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          box-sizing: border-box;
+        }
+    
+        button {
+          background-color: #0f3f71;
+          color: #fff;
+          padding: 10px 15px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+    </style>    
+      <title>Contact</title>
+   </head>
+   <body>
+      <!---------------- header start------------------->
+      <nav class="navigation">
+         <div class="logo">
+          <h1 class="header_logo">SRF</h1>
+         </div>
+
+         <ul class="headerlist">
+            <li><a class="headertitle" href="index.html">Home</a></li>
+            <li><a class="headertitle" href="about.html">About</a></li>
+            <li><a class="headertitle" href="contact.html">Contact</a></li>
+
+            <!-- Search bar -->
+            <div class="search-container">
+               <input type="text" class="search-input" placeholder="Search..." disabled />
+               <button class="search-button">Search</button>
+            </div>
+         </ul>
+      </nav>
+      <!---------------- header end------------------->
+      <header>
+        <h1>Contact Us - SRF News</h1>
+      </header>
+    
+      <section>
+        <h2>Get in Touch</h2>
+    
+        <form action="#" method="post">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+    
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    
+
+      <!---------------- footer------------------->
+      <div class="footer">
+        &copy; 2024 SRF News. All rights reserved.
+        <div class="footer-links">
+          <a href="contact.html">Contact</a>
+          <a href="about.html">About</a>
+        </div>
+     </div>
+   </body>
+</html>
